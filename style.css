@@ -5,7 +5,7 @@ body{
     margin: 0;
     background: linear-gradient(to left,rgb(70, 70, 142),rgb(170, 168, 168));
     background-size: contain;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 .landing{
     background-image: url('/Assets/Bg.jpg');
@@ -153,6 +153,7 @@ transition: 500ms;
 {
 
     body{
+        overflow-y: auto;
         background: #34346e;
     }
     *{
@@ -183,6 +184,10 @@ transition: 500ms;
     }
     .header
     {
-        margin-top: 10vh;        
+        margin-top: 8vh;        
+    }
+    .coinTable
+    {
+        overflow: scroll;
     }
 }
