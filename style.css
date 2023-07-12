@@ -9,7 +9,7 @@ body{
     overflow-x: hidden;
 }
 .landing{
-    background-image: url('/Assets/Bg.jpg');
+    background-image: url('https://raw.githubusercontent.com/sufyans1/Crypto-wizard/main/Assets/Bg.jpg');
     background-size:contain;
     background-repeat: no-repeat;
     background-clip: content-box;
