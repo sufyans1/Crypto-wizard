@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/Assets/icon.png" type="image/x-icon">
+    <title>Crypto wizard</title>
+</head>
+<body>
+    <div class="allContainer">
+    <div class="landing">
+        <nav class="Mynavabr">
+            <div class="logo-and-name">
+                <div class="log">
+                    <img src="/Assets/bluelogo.png" alt="" style="height: 8vh;">
+                </div>
+                <div class="name"><p>Crypto wizard</p></div>
+            </div>
+            <div class="credits"><div class="poweredby"><p>Powered By</p></div><div class="coingeckologo">
+                <a href="https://www.coingecko.com/en/api" target="_blank"><img src="/Assets/CoingeckoLogo.png" alt="" style="height: 4vh;"></a>
+            </div></div>
+        </nav>
+        <aside class="asidecontent">
+            <div class="header">
+                <h1>Look first</h1>
+                <h1>Then leap</h1>
+            </div>
+            <div class="paragraph">
+                <p>The best investment require research,</p><p> then commitment</p>
+            </div>
+            <div class="main-coins">
+                <div class="coinMaster BTC">
+                    <div class="coin-imge">
+                        <img src="/Assets/bluelogo.png" alt=""  class="BTC" id="BtcImage"> 
+                    </div>
+                    <div class="coin-price-ticker">
+                        <div class="cointicker BTC"  id="BtcTicker">BTC</div>
+                        <div class="coinprice BTC" id="BtcPrice">1200 $</div>
+                    </div>
+                </div>
+                <div class="coinMaster ETH">
+                    <div class="coin-imge">
+                        <img src="/Assets/bluelogo.png" class="IMAGE ETH" alt="" id="EthImage">
+                    </div>
+                    <div class="coin-price-ticker">
+                        <div class="cointicker ETH" id="EthTicker">ETH</div>
+                        <div class="coinprice ETH" id="EthPrice">1200 $</div>
+                    </div>
+                </div>
+                <div class="coinMaster BNB">
+                    <div class="coin-imge">
+                        <img src="/Assets/bluelogo.png" class="IMAGE BNB" alt="" id="BnbImage">
+                    </div>
+                    <div class="coin-price-ticker">
+                        <div class="cointicker BNB">BNB</div>
+                        <div class="coinprice BNB">1200 $</div>
+                    </div>
+                </div>
+            </div>
+            <div class="ViewMore">
+                <a href="#coinTable" class="fa-solid "><li class="fa-solid fa-circle-right fa-2xl fa-beat-fade fa-solidd"></li></a>
+            </div>
+        </aside>
+    </div>
+    <div class="coinTable" id="coinTable" style="color:white;"></div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.css" />
+<script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
