@@ -8,7 +8,7 @@ body{
     overflow-y: hidden;
 }
 .landing{
-    background-image: url('/Assets/Bg.jpg');
+    background-image: url('Assets/Bg.jpg');
     background-size:contain;
     background-repeat: no-repeat;
     background-clip: content-box;
