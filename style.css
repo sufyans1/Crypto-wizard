@@ -7,7 +7,7 @@ body{
     background-size: contain;
 }
 .landing{
-    background-image: url('/Assets/Bg.jpg');
+    background-image: url('Assets/Bg.jpg');
     background-size:contain;
     background-repeat: no-repeat;
     background-clip: content-box;
