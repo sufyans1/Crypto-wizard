@@ -1,3 +1,4 @@
+
 body{
     width: 100vw;
     padding: 0;
@@ -7,7 +8,7 @@ body{
     overflow: hidden;
 }
 .landing{
-    background-image: url('https://raw.githubusercontent.com/sufyans1/Crypto-wizard/main/Assets/Bg.jpg');
+    background-image: url('/Assets/Bg.jpg');
     background-size:contain;
     background-repeat: no-repeat;
     background-clip: content-box;
@@ -150,7 +151,8 @@ transition: 500ms;
 }
 @media (width < 1000px)
 {
-     body{
+
+    body{
         background: #34346e;
     }
     *{
@@ -161,11 +163,11 @@ transition: 500ms;
     {
         background-image: none;
         height: 100vh;
-        width: 100dvw;
+        width: 100dvw;  
     }
     h1
     {
-        font-size: xx-large;
+           font-size: xx-large;
     }
     .paragraph
     {
@@ -179,5 +181,8 @@ transition: 500ms;
     {
         font-size: small;
     }
-
+    .header
+    {
+        margin-top: 10vh;        
+    }
 }
